@@ -41,7 +41,7 @@ public class Lexer {
 				word += input.substring(i, i+1);
 			}
 
-			else if(input.substring(i, i+1).equals(" ") && word != ""){
+			else if (input.substring(i, i+1).equals(" ") && word != ""){
 				list.add(word);
 				word = "";
 			}
